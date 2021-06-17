@@ -1,7 +1,7 @@
 public class ReverseStringUsingRecursion{
   
   /*Function will print reverse of the string*/
-  void reverse(String str)
+  public void reverse(String str)
     {
         if ((str==null)||(str.length() <= 1))
            System.out.println(str);
